@@ -1,0 +1,13 @@
+h3 {
+    color: rgb(170, 120, 120);
+}
+
+table {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+th {
+    background-color: rgb(197, 113, 145);
+    padding: 25px;
+}
