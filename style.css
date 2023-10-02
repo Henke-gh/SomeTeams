@@ -1,13 +1,24 @@
+body {
+  background-color: lightslategrey;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
 h3 {
-    color: rgb(170, 120, 120);
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
 }
 
 table {
-    padding-left: 30%;
-    padding-right: 30%;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 th {
-    background-color: rgb(197, 113, 145);
-    padding: 25px;
+  font-size: 1.5rem;
+  background-color: whitesmoke;
+}
+
+tr {
+  background-color: whitesmoke;
+  padding: 25px;
 }
