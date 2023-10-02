@@ -6,19 +6,42 @@ body {
 h3 {
   color: rgb(0, 0, 0);
   font-size: 1.5rem;
+  text-align: center;
 }
 
-table {
-  padding-left: 30%;
-  padding-right: 30%;
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(206, 100, 100);
 }
 
 th {
   font-size: 1.5rem;
+  border-radius: 5px;
+  padding: 5px 10px;
   background-color: whitesmoke;
 }
 
 tr {
   background-color: whitesmoke;
   padding: 25px;
+}
+
+td {
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.main-table {
+  display: flex;
+  justify-content: center;
+}
+
+.team-count {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
 }
