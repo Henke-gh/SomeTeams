@@ -60,3 +60,6 @@ require __DIR__ . "/data.php";
         </table>
     </div>
 </main>
+</body>
+
+</html>
