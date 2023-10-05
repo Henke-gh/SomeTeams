@@ -8,6 +8,14 @@ require __DIR__ . "/data.php";
     <div class="main-table">
         <table>
             <tr>
+                <th>Teams</th>
+                <th>League</th>
+                <th>Champions</th>
+                <th>City</th>
+                <th>Nickname</th>
+                <th>URL</th>
+            </tr>
+            <tr>
                 <!--loops through teams-array and finds the names of all the teams.-->
                 <?
                 foreach ($teams as $key => $team) : ?>
@@ -42,6 +50,7 @@ require __DIR__ . "/data.php";
         <table>
             <tr>
                 <td>
+                    <p>Cities:</p>
                     <? require __DIR__ . "/cities.php"; ?>
                 </td>
                 <td>
