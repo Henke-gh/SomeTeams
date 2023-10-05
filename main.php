@@ -8,12 +8,11 @@ require __DIR__ . "/data.php";
     <div class="main-table">
         <table>
             <tr>
-                <th>Teams</th>
-                <th>League</th>
-                <th>Champions</th>
-                <th>City</th>
-                <th>Nickname</th>
-                <th>URL</th>
+                <th>Team</th>
+                <?
+                foreach ($teams['Newcastle'] as $key => $team) : ?>
+                    <th><?= ucfirst($key); ?></th>
+                <? endforeach; ?>
             </tr>
             <tr>
                 <!--loops through teams-array and finds the names of all the teams.-->
